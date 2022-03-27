@@ -81,7 +81,7 @@ $ cd tentacle && RUST_LOG=info cargo run --example simple --features ws -- serve
 
 2. setup a browser client
 ```
-$ cargo install wasm-bindgen-cli
+$ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 $ cd simple_wasm/www && wasm-pack build
 $ npm install && npm run start
 ```
